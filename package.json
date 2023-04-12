@@ -1,57 +1,25 @@
 {
-  "name": "foodbeax",
-  "version": "0.1.0",
+  "name": "foodbea12",
+  "version": "1.0.0",
   "homepage": "https://gitname.github.io/react-gh-pages",
-  "private": true,
-  "dependencies": {
-    "@stripe/react-stripe-js": "^2.1.0",
-    "@stripe/stripe-js": "^1.52.0",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "axios": "^1.3.4",
-    "bootstrap": "^5.2.3",
-    "dom": "^0.0.3",
-    "react": "^18.2.0",
-    "react-bootstrap": "^2.7.2",
-    "react-dom": "^18.2.0",
-    "react-redux": "^8.0.5",
-    "react-router": "^6.9.0",
-    "react-router-dom": "^5.3.4",
-    "react-scripts": "5.0.1",
-    "react-stripe-checkout": "^2.6.3",
-    "redux": "^4.2.1",
-    "redux-devtools-extension": "^2.13.9",
-    "redux-thunk": "^2.4.2",
-    "web-vitals": "^2.1.4"
-  },
+  "description": "",
+  "main": "Server.js",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3",
+    "nodemon": "^2.0.22",
+    "router": "^1.3.8",
+    "stripe": "^11.16.0",
+    "uuid": "^9.0.0"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "proxy": "http://localhost:5000/",
   "devDependencies": {
     "gh-pages": "^5.0.0"
   }
